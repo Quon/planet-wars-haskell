@@ -66,6 +66,7 @@ import qualified Data.IntSet as IS
 import Data.Ord (comparing)
 import System.IO
 import System.IO.Error (isEOFError)
+import Control.Exception
 
 -- | Class for values that are owned by a player
 --
